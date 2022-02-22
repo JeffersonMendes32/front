@@ -1,0 +1,30 @@
+body {
+    background-color:  rgb(223, 215, 185);
+    color: rgb(51, 51, 51); 
+    font-family: Arial, Helvetica, sans-serif;  
+    }
+    h1 {
+        color: #0d1b97;  
+        /* 0d1b97 nao esqueça de colocar a "#" senao nao ativa*/
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+        font-size: 40px;
+    }
+    .job-title{
+       color: #898dbe;
+       background-color: #0d1b97;
+       font-size: 20px;
+       font-weight: bold;
+       padding: 5px 10px 5px 10px;
+
+    }
+    h2 {
+        font-size: 20px;
+    }
+      #high {
+          color: rgb(13, 27, 151);
+      }
+      ul {
+          color: rgb(223, 215, 185);
+          background-color: #333333;
+          padding: 10px;
+      }
