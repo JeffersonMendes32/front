@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'roboto' , sans-serif;
+    font-weight: 700;
+    font-size: 20px ;
+}
+
+body{ background-color: black;}
+
+h1{color: white;
+
+    font-family: 'roboto' , sans-serif;
+    font-weight: 700;
+    font-size: 20px ;
+}
+
+.media-picture{
+    background-image: url("../img/Avenger\ End\ Game.jpg");
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.review-score {
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+  }
+
+
+h2{color: steelblue;}
+
+p { color: #bdbdbd;
+
+    font-family: 'roboto' , sans-serif;
+    font-weight: 700;
+    font-size: 20px ;
+}
+
+a{
+    color: yellow;
+    font-family: 'roboto' , sans-serif;
+    font-weight: 700;
+    font-size: 20px ;
+}
+
+
