@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 20px solid white;
+}
+header{
+    padding: 10px;
+    background-color: #1CD1B0;
+    height: 38px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* .section{
+    border: 5px solid white;
+} */
+h1{
+    background-color: #00669F;
+    height: 101px;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+h2{
+    text-align: center;
+    padding: auto;
+    border-bottom: 20px;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    padding: 20px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.section{
+    background-color: #E5E5E5; 
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+.caixa1{
+    height: 630px;
+    width: 374px;
+    background-color: #F3F3F3;
+}
+#img-fundo-batman{
+    width: 373.57px;
+    height: 217.81px;
+    background-image: url(/img/fundobatman.png)  ;
+}
+.caixa2{
+    height: 630px;
+    width: 374px;
+    background-color: #F3F3F3;
+}
+#img-fundo-arlequina{
+    width: 373.57px;
+    height: 217.81px;
+    background-image: url(/img/fundoarlequina.png);
+}
+#img-arlequina{
+    position: relative;
+    display: block;
+    bottom:90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 137.69px;
+    height: 137.69px;
+    background-image: url(/img/arlequina.png);
+}
+
+#img-batman{
+    position: relative;
+    display: block;
+    bottom:90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 137.69px;
+    height: 137.69px;
+    background-image: url(/img/batman.png);
+}
+.coracao{
+    position: absolute;
+    padding: 20px;
+}
+.ver-mais{
+    color: white;
+    background-color: #00669F;
+    margin: 0px 100px;
+    margin-top: 35px;
+}
+
+
+
+
+footer{
+    padding: 15px;
+    color: white;
+    display: flex;
+    background-color: #00669F;
+    justify-content: left;
+}
