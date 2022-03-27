@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald'; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+html body{
+    height: 100vh;
+    background-color: rgb(63, 62, 62);
+}
+.clear {
+    clear: both;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.logo {
+    padding: 20px 2%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.logo h2 {
+    margin: 8px;
+    color: white;
+}
+nav.menu-mobile {
+    cursor: pointer;
+    display: none;
+    width: 32px;
+    height: 32px;
+    float: right;
+    background-image: url('../img/barra-de-menu.png');
+    background-size: 100% 100%;
+}
+
+nav.menu-mobile:hover ul {
+    opacity: 1;
+}
+
+nav.menu-mobile ul li:hover {
+    background-color: red;
+}
+
+nav.menu-mobile ul {
+    opacity: 0;
+    transition: 1s;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.menu-mobile ul li {
+    padding: 8px 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+nav.menu-mobile ul li a {
+    color: white;
+    text-decoration: none;
+} 
+
+header nav.menu {
+    float: right;
+
+}
+
+header nav.menu ul {
+    padding: 8px 0;
+    list-style-type: none;
+
+}
+
+header nav.menu ul li {
+    font-size: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin: 8px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+header ul a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.back {
+    width: 100%;
+    height: 420px;
+}
+.back  img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+
+}
+main h1 {
+   text-align: center;  
+    margin: 25px;
+   display: block;
+    
+}
+ main {
+   
+    padding: 30px 2%;
+} 
+.container2 {
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    border-radius: 18px; 
+   background-color: brown;
+   padding-top: 40px;
+}
+.container2 img {
+    width: 100%;
+    height: 100%;
+    gap: 0.5;
+}
+ 
+@media screen and (max-width:1110px) {
+    main {
+        display: block;
+
+    }    
+}
